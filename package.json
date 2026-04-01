@@ -30,4 +30,7 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.7"
   }
+"scripts": {
+  "build": "npm ci && tsc --noEmit && vite build"
+},
 }
